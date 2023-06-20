@@ -43,6 +43,8 @@ In this project we will manage the school library using Ruby.
 ### Key Features <a name="key-features"></a>
 
 - **Add Person, Student, and Teacher classes**
+- **use the "Decorator" design pattern.**
+- **set up associations.**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -105,8 +107,6 @@ sh
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **use the "Decorator" design pattern.**
-- [ ] **set up associations.**
 - [ ] **add basic UI.**
 - [ ] **refactor your code.**
 - [ ] **preserve data.**
