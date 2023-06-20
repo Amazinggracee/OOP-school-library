@@ -7,9 +7,9 @@ class Person < Nameable
     super()
     @id = rand(1..1_000)
     @name = name
-    @rentals = []
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
   end
 
   def can_use_service?
