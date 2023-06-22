@@ -31,7 +31,7 @@ class App
   end
 
   def list_all_persons
-    puts 'No person available in the DataBase' if @persons.empty?
+    puts 'No person available in the DataBase.' if @persons.empty?
     @persons.each do |person|
       puts "[#{person.class.name}] Name: #{person.name}, Age: #{person.age}, id: #{person.id}"
     end
