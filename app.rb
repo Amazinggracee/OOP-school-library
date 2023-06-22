@@ -47,7 +47,7 @@ class App
     when '2'
       create_teacher
     else
-      puts 'Invalid input. Try again'
+      puts 'Invalid input. Try again.'
     end
   end
 
