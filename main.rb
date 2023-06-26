@@ -8,7 +8,7 @@ class MainMenu
   def start
     loop do
       list_of_options
-      input = get_user_input
+      input = user_input
       break if input == '7'
 
       execute_option(input)
@@ -29,7 +29,7 @@ class MainMenu
     puts '7 - Exit'
   end
 
-  def get_user_input
+  def user_input
     print 'Enter your choice: '
     gets.chomp
   end
