@@ -10,6 +10,7 @@ class MainMenu
       list_of_options
       input = get_user_input
       break if input == '7'
+
       execute_option(input)
     end
   end
