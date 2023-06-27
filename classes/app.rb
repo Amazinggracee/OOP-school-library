@@ -1,7 +1,7 @@
-require_relative './student'
-require_relative './teacher'
-require_relative './book'
-require_relative './preserve_data'
+require_relative 'student'
+require_relative 'teacher'
+require_relative 'book'
+require_relative 'preserve_data'
 
 class App
   def initialize
