@@ -2,8 +2,6 @@ require_relative '../classes/book'
 require_relative '../classes/rental'
 require_relative '../classes/student'
 
-
-
 RSpec.describe Book do
   let(:book_title) { 'The Great Gatsby' }
   let(:book_author) { 'F. Scott Fitzgerald' }
